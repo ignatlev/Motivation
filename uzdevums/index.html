@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Motivational Program</title>
+   <link rel="stylesheet" type="text/css" href="styles.css">
+   <link rel="shortcut icon" href="icon.png" />
+</head>
+
+<body>
+   <div class="container">
+      <h1>Motivational Program</h1>
+
+      <div id="quoteSection">
+         <button id="getQuote">Get a Motivational Quote</button>
+         <select id="quoteGenre">
+            <option value="random">Random</option>
+            <option value="life">Life</option>
+            <option value="success">Success</option>
+            <option value="love">Love</option>
+            <option value="wisdom">Wisdom</option>
+            <option value="education">Education</option>
+            <option value="friendship">Friendship</option>
+            <option value="happiness">Happiness</option>
+         </select>
+      </div>
+      <div id="quoteDisplay"></div>
+      <div id="goalSection">
+         <h2>Set Your Goal</h2>
+         <input type="text" id="goalInput" placeholder="Enter your goal...">
+         <button id="setGoal">Set Goal</button>
+      </div>
+      <div id="goalsTracker">
+         <h2>Your Goals</h2>
+         <div id="predefinedLine">Keep calm and keep</div>
+         <ul id="goalsList">
+         </ul>
+      </div>
+   </div>
+   <script src="script.js"></script>
+</body>
+
+</html>
