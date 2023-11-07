@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
  
 
-    setInterval(changePredefinedLine, 5000);
+    setInterval(changePredefinedLine, 3000);
     changePredefinedLine(); 
  
   
